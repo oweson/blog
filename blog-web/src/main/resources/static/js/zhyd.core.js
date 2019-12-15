@@ -46,7 +46,7 @@
                     return;
                 }
                 var op = $.extend({
-                    title: "您有一条新消息",
+                    title: "山高水深",
                     icon: appConfig.staticPath + '/img/notification.png',
                     delay: 5000,
                     notification: null
@@ -397,7 +397,8 @@
     /* 鼠标点击向上冒泡弹出提示动画 */
     $.extend({
         bubble: {
-            _tip: ['法制', '爱国', '敬业', '诚信', '友善', '富强', '民主', '文明', '和谐', '自由', '平等', '公正'],
+            _tip: ['法制', '爱国', '敬业', '诚信', '友善', '富强', '民主', '文明', '和谐', '自由', '平等', '公正', '坚持', '勇敢', '正直', '善良'
+                , '勇气', '聪慧', '毅力', '自信', '等待', '行动'],
             init: function () {
                 var bubbleIndex = 0;
                 $('body').click(function (e) {

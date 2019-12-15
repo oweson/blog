@@ -23,7 +23,7 @@
                 </div>
                 <h5 class="custom-title"><i class="fa fa-copyright fa-fw"></i><strong>关于版权</strong><small></small></h5>
                 <div class="info">
-                    本站所有标注为原创的文章，转载请标明出处。<br>
+                    本站所有标注为原创的文章和有道上面的个人笔记，转载请标明出处。<br>
                     本站所有转载的文章，一般都会在文章中注明原文出处。<br>
                     所有转载的文章皆来源于互联网，若因此对原作者造成侵权，烦请原作者<a target="_blank" href="mailto:${config.authorEmail}" title="点击给我发邮件" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><strong>告知</strong></a>，我会立刻删除相关内容。
                 </div>

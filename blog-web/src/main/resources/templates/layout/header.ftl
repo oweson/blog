@@ -35,7 +35,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <ul class="list-inline">
                     <li><h4 class="modal-title" id="oauthTitle">登录</h4></li>
-                    <li><a href="javascript:$.alert.info('没用，别点了！我就没打算开发这个功能。Just to show you~~');"><h4 class="modal-title" id="myModalLabel">注册</h4></a></li>
+                    <li><a href="javascript:$.alert.info('没用，别点了！这个功能还没做。Just to show you~~');"><h4 class="modal-title" id="myModalLabel">注册</h4></a></li>
                 </ul>
             </div>
             <div class="modal-body">
@@ -52,7 +52,7 @@
                                 </#list>
                             <#else>
                                 <li>
-                                    稍等一下， 博主正在快马加鞭的配置~~
+                                    稍等一下， 站长正在快马加鞭......~~
                                 </li>
                             </#if>
                         </@zhydTag>
