@@ -186,14 +186,15 @@
             <small></small>
         </h5>
         <ul class="ul-default site-info">
+            <!--某些敏感信息暂时注释掉-->
             <@zhydTag method="siteInfo">
                 <li><i class="fa fa-file fa-fw"></i> 文章总数：${siteInfo.articleCount!(0)} 篇</li>
-                <li><i class="fa fa-tags fa-fw"></i> 标签总数：${siteInfo.tagCount!(0)} 个</li>
-                <li><i class="fa fa-folder-open fa-fw"></i> 分类总数：${siteInfo.typeCount!(0)} 个</li>
-                <li><i class="fa fa-comments fa-fw"></i> 留言数量：${siteInfo.commentCount!(0)} 条</li>
-                <li><i class="fa fa-users fa-fw"></i> 在线人数：<span class="online">1</span>人</li>
-                <li><i class="fa fa-calendar fa-fw"></i> 运行天数：${siteInfo.installdate!(1)}天</li>
-                <li><i class="fa fa-pencil-square fa-fw"></i> 最后更新：${siteInfo.lastUpdateTime!("暂无更新记录")}</li>
+<#--                <li><i class="fa fa-tags fa-fw"></i> 标签总数：${siteInfo.tagCount!(0)} 个</li>-->
+<#--                <li><i class="fa fa-folder-open fa-fw"></i> 分类总数：${siteInfo.typeCount!(0)} 个</li>-->
+<#--                <li><i class="fa fa-comments fa-fw"></i> 留言数量：${siteInfo.commentCount!(0)} 条</li>-->
+<#--                <li><i class="fa fa-users fa-fw"></i> 在线人数：<span class="online">1</span>人</li>-->
+<#--                <li><i class="fa fa-calendar fa-fw"></i> 运行天数：${siteInfo.installdate!(1)}天</li>-->
+<#--                <li><i class="fa fa-pencil-square fa-fw"></i> 最后更新：${siteInfo.lastUpdateTime!("暂无更新记录")}</li>-->
             </@zhydTag>
         </ul>
     </div>

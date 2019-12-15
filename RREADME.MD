@@ -11,3 +11,5 @@ SELECT a.id from biz_article a where
  
  
  ## 修改微信：https://static.zhyd.me/static/img/wechat_account.jpg
+ 
+ 1 quartz:查询文章的id,随机的取出一部分，random随机的1-10，增加浏览量；
