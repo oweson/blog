@@ -24,7 +24,7 @@
                         <div class="about-main">
                             <div class="about-img"><a href="${config.wxCode}" class="showImage" title="">
                                     <img
-                                            src="/static/img/wechat_account.jpg" alt=""></a></div>
+                                            src="https://oweson.oss-cn-shanghai.aliyuncs.com/oneblog/20191222171654234.jpg" alt=""></a></div>
                             <div class="about-name">${config.siteName}</div>
                             <div class="about-the">${config.siteDesc!}</div>
                         </div>
