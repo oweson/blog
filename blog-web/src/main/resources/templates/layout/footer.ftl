@@ -107,18 +107,18 @@
         <div class="row">
             <div class="col col-xs-12 col-md-12 col-lg-12">
                 <p>
-                    <ul class="list-unstyled list-inline">
-                        <li>其他连接：</li>
-                        <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-map-o fa-fw"></i>网站地图</a></li>
-                        <li><a href="${config.siteUrl}/recommended" title="站长推荐" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-thumbs-o-up fa-fw"></i>站长推荐</a></li>
-                        <li><a href="${config.siteUrl}/updateLog" title="更新记录" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>更新记录</a></li>
-                        <li><a href="${config.siteUrl}/archives" title="归档目录" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-folder-o fa-fw"></i>归档目录</a></li>
-                        <li><a href="${config.siteUrl}/disclaimer" title="免责声明" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>免责声明</a></li>
-                    </ul>
+<#--                    <ul class="list-unstyled list-inline">-->
+<#--                        <li>其他连接：</li>-->
+<#--                        <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-map-o fa-fw"></i>网站地图</a></li>-->
+<#--                        <li><a href="${config.siteUrl}/recommended" title="站长推荐" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-thumbs-o-up fa-fw"></i>站长推荐</a></li>-->
+<#--                        <li><a href="${config.siteUrl}/updateLog" title="更新记录" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>更新记录</a></li>-->
+<#--                        <li><a href="${config.siteUrl}/archives" title="归档目录" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-folder-o fa-fw"></i>归档目录</a></li>-->
+<#--                        <li><a href="${config.siteUrl}/disclaimer" title="免责声明" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>免责声明</a></li>-->
+<#--                    </ul>-->
                 </p>
               <p>托管于<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db" target="_blank" title="阿里云-为了无法计算的价值" data-toggle="tooltip"
                        data-placement="bottom" rel="external nofollow">阿里云</a>
-                  <#if config.recordNumber!> · <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">${config.recordNumber}</a></#if></p>-->
+                  <#if config.recordNumber!> · <a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank" title="查看备案信息" data-toggle="tooltip" data-placement="bottom" rel="external nofollow">${config.recordNumber}</a></#if></p>
                 <#if url?? && (url == "index")>
                     <div class="inline external-links">
                         <a>友情链接：</a>

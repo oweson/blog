@@ -15,16 +15,16 @@
 <#--            <a href='https://gitee.com/yadong.zhang/DBlog' target="_blank" rel="external nofollow"><img-->
 <#--                        src='https://gitee.com/yadong.zhang/DBlog/widgets/widget_1.svg?color=07b83f'-->
 <#--                        alt='Fork me on Gitee' style="position: absolute;right: 0;"/></a>-->
-            <h5 class="custom-title"><i class="fa fa-home fa-fw icon"></i><strong>关于我</strong>
+            <h5 class="custom-title"><i class="fa fa-home fa-fw icon"></i><strong>空空如也</strong>
                 <small></small>
             </h5>
             <div class="widget">
                 <div id="feed_widget">
                     <div class="feed-about">
                         <div class="about-main">
-                            <div class="about-img"><a href="${config.wxCode}" class="showImage" title="微信号">
+                            <div class="about-img"><a href="${config.wxCode}" class="showImage" title="">
                                     <img
-                                            src="/static/img/wechat_account.jpg" alt="微信号"></a></div>
+                                            src="/static/img/wechat_account.jpg" alt=""></a></div>
                             <div class="about-name">${config.siteName}</div>
                             <div class="about-the">${config.siteDesc!}</div>
                         </div>

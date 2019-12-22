@@ -13,16 +13,7 @@
     <meta name="description" content="${description}" id="meta_description">
     <link rel="canonical" href="${config.siteUrl}${canonical}" />
     <#include "/layout/quote.ftl">
-    <#--黑白界面
-    <style>
-        html {
-            filter: grayscale(100%);
-            -webkit-filter: grayscale(100%);
-            -moz-filter: grayscale(100%);
-            -ms-filter: grayscale(100%);
-            -o-filter: grayscale(100%);
-            filter: url("data:image/svg+xml;utf8,<svg xmlns="\'http://www.w3.org/2000/svg\'"><filter id="\'grayscale\'"><feColorMatrix type="\'matrix\'" values="\'0.3333" 0.3333="" 0="" 1="" 0\'=""></fecolormatrix></filter></svg>#grayscale");filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter:grayscale(1);}
-    </style>-->
+
     <#if hasEditor>
         <link href="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/github-markdown-css@2.10.0/github-markdown.min.css" rel="stylesheet">
@@ -68,8 +59,8 @@
                 <a href="javascript:void(0);" target="_blank" title="点击QQ联系我哈哈" onclick="window.open('tencent://message/?uin=${config.qq}&amp;Site=www.${config.domain}&amp;Menu=yes')" rel="external nofollow"><i class="fa fa fa-qq fa-fw"></i>QQ联系</a>
                 |
                 <a href="mailto:${config.authorEmail}" target="_blank" title="点击给我发邮件" rel="external nofollow"><i class="fa fa fa-envelope fa-fw"></i>邮箱联系</a>
-                |
-                <a href="${config.weibo}" target="_blank" title="点击查看我的微博" rel="external nofollow"><i class="fa fa fa-weibo fa-fw"></i>${weiboName}</a>
+<#--                |-->
+<#--                <a href="${config.weibo}" target="_blank" title="点击查看我的微博" rel="external nofollow"><i class="fa fa fa-weibo fa-fw"></i>${weiboName}</a>-->
             </div>
         </div>
     </div>
