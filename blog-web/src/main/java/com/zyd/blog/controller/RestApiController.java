@@ -72,6 +72,7 @@ public class RestApiController {
         return ResultUtil.success("已成功添加友链，祝您生活愉快！");
     }
 
+    // todo 输入qq调用这个方法，查找公共的qq信息；
     @PostMapping("/qq/{qq}")
     @BussinessLog(value = "获取QQ信息", platform = PlatformEnum.WEB)
     public ResponseVO qq(@PathVariable("qq") String qq) {
@@ -107,6 +108,7 @@ public class RestApiController {
         return ResultUtil.success(null, commentService.list(vo));
     }
 
+    // todo 留言，评论接口
     @PostMapping("/comment")
     @BussinessLog(value = "发表评论", platform = PlatformEnum.WEB)
     public ResponseVO comment(Comment comment) {

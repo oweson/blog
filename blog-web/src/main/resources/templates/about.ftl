@@ -27,7 +27,7 @@
                     本站所有转载的文章，一般都会在文章中注明原文出处。<br>
                     所有转载的文章皆来源于互联网，若因此对原作者造成侵权，烦请原作者<a target="_blank" href="mailto:${config.authorEmail}" title="点击给我发邮件" data-toggle="tooltip" data-placement="bottom" rel="external nofollow"><strong>告知</strong></a>，我会立刻删除相关内容。
                 </div>
-                <@praise></@praise>
+<#--                <@praise></@praise>-->
             </div>
         </div>
         <#--<div class="col-sm-12 blog-main">
