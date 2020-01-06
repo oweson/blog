@@ -16,6 +16,10 @@ public class PopularityController {
     @Autowired
     BizCommentMapper bizCommentMapper;
 
+    /**
+     * 1 手动人气增加
+     */
+
     @RequestMapping(value = "/popularity")
     public Object popularity(@RequestParam(value = "articleId") Long id, @RequestParam(value = "number", required = false, defaultValue = "null") Integer number) {
         popularityService.insert(id, number);

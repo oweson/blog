@@ -5,6 +5,7 @@ import com.zyd.blog.business.service.PopularityService;
 import com.zyd.blog.business.util.IpUtils;
 import com.zyd.blog.persistence.beans.BizArticleLook;
 import com.zyd.blog.persistence.mapper.BizArticleLookMapper;
+import com.zyd.blog.persistence.mapper.BizArticleMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -12,6 +13,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Random;
 
 @Slf4j
@@ -19,6 +21,8 @@ import java.util.Random;
 public class PopularityServiceImpl implements PopularityService {
     @Autowired
     private BizArticleLookMapper bizArticleLookMapper;
+    @Autowired
+    private BizArticleMapper bizArticleMapper;
 
     @Override
     public ArticleLook insert(Long id, int number) {
@@ -59,5 +63,9 @@ public class PopularityServiceImpl implements PopularityService {
 
     }
 
+    @Override
+    public List<Long> getRandomArticleIds() {
+        return bizArticleMapper.getArticleIds();
 
+    }
 }
