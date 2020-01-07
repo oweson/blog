@@ -36,6 +36,9 @@
 			<result property="description" jdbcType="VARCHAR" column="tag_description"/>
 		</collection>
 	</resultMap>
+	<select id="getArticleIds" resultType="long">
+		 select id from biz_article ORDER BY RAND() limit 15;
+	</select>
 
 	<select id="findPageBreakByCondition" parameterType="com.zyd.blog.business.vo.ArticleConditionVO" resultMap="rm">
 		SELECT

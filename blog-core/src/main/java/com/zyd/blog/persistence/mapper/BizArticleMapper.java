@@ -19,6 +19,8 @@ import java.util.List;
 @Repository
 public interface BizArticleMapper extends BaseMapper<BizArticle> {
 
+    List<Long> getArticleIds();
+
     /**
      * 分页查询，关联查询文章标签、文章类型
      *
