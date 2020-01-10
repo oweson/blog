@@ -16,8 +16,10 @@
     </parent>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz
-         添加定时依赖-->
+
+
+        <!--         添加定时依赖-->
+
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
